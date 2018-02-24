@@ -63,7 +63,7 @@
                             Sheridan Park
                         </div>
                         <div id="sheridan_park_map_container">
-                            <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN1a55S7SD4gRzfaP7NrS6DE&key=AIzaSyCSjrG9jwyAY-Qztcu1P0pPZLfrzEQmxo8" allowfullscreen></iframe>
+                            <iframe width="100%" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJN1a55S7SD4gRzfaP7NrS6DE&key=AIzaSyCSjrG9jwyAY-Qztcu1P0pPZLfrzEQmxo8" allowfullscreen></iframe>
                         </div>
                     </div>
                 </li>
@@ -203,10 +203,10 @@
 <!---------------------------------cp 5-7 year old-------------------------->
 
     
-    <div class="tennis_level_container" id="jp_5-7_program_container"> 
+    <div class="tennis_level_container" id="cp_5-7_program_container"> 
         
-            <div class="level_description_container" id="jp_5-7_description_container">
-                <div id="jp_5-7_level_header" class="tennis_level_header">
+            <div class="level_description_container" id="cp_5-7_description_container">
+                <div id="cp_5-7_level_header" class="tennis_level_header">
                     5-7 years old
                 </div>
                 <div class="level_cost">
@@ -221,7 +221,7 @@
     
             </div>
         
-            <div class="day_container" id="jp_5-7_day_container">
+            <div class="day_container" id="cp_5-7_day_container">
                 <div class='select_day_text'>
                     Select Day:
                 </div>
@@ -310,10 +310,10 @@
 <!---------------------------------cp 5-7 year old-------------------------->
 
     
-    <div class="tennis_level_container" id="jp_5-7_program_container"> 
+    <div class="tennis_level_container" id="sp_5-7_program_container"> 
         
-            <div class="level_description_container" id="jp_5-7_description_container">
-                <div id="jp_5-7_level_header" class="tennis_level_header">
+            <div class="level_description_container" id="sp_5-7_description_container">
+                <div id="sp_5-7_level_header" class="tennis_level_header">
                     5-7 years old
                 </div>
                 <div class="level_cost">
@@ -328,7 +328,7 @@
     
             </div>
         
-            <div class="day_container" id="jp_5-7_day_container">
+            <div class="day_container" id="sp_5-7_day_container">
                 <div class='select_day_text'>
                     Select Day:
                 </div>
@@ -458,9 +458,9 @@
             
 /*-----------------------------scrolling animation for group classes---------------------*/
             
-            $("#five_to_seven_nav").click(
+            $("#jp_nav").click(
                 function(){
-                    var scrollDistance = $("#five_to_seven_yo_program_container").offset().top;
+                    var scrollDistance = $("#jonquil_park_header").offset().top;
                     scrollDistance = scrollDistance - 100;
                     
                     $('html, body').animate({
@@ -469,9 +469,9 @@
                 }
             );
             
-            $("#eight_to_ten_nav").click(
+            $("#cp_nav").click(
                 function(){
-                    var scrollDistance = $("#eight_to_ten_yo_program_container").offset().top;
+                    var scrollDistance = $("#clarendon_park_header").offset().top;
                     scrollDistance = scrollDistance - 100;
                     
                     $('html, body').animate({
@@ -480,20 +480,9 @@
                 }
             );
             
-            $("#eleven_to_thirteen_nav").click(
+            $("#sp_nav").click(
                 function(){
-                    var scrollDistance = $("#eleven_to_thirteen_yo_program_container").offset().top;
-                    scrollDistance = scrollDistance - 100;
-                    
-                    $('html, body').animate({
-                        scrollTop: scrollDistance
-                    },2000);
-                }
-            );
-            
-            $("#high_school_nav").click(
-                function(){
-                    var scrollDistance = $("#high_school_program_container").offset().top;
+                    var scrollDistance = $("#clarendon_park_header").offset().top;
                     scrollDistance = scrollDistance - 100;
                     
                     $('html, body').animate({

@@ -159,9 +159,10 @@ li{
 
 #jonquil_park_container{
     width: 20vw;
+    margin-right: 5vw
 }
 #jonquil_park_header_container{
-    
+    font-size: 30px;
 }
 #jonquil_park_map_container{
     
@@ -174,7 +175,7 @@ li{
     width: 20vw;
 }
 #clarendon_park_header_container{
-    
+    font-size: 30px;
 }
 #clarendon_park_map_container{
     
@@ -185,9 +186,10 @@ li{
 
 #sheridan_park_container{
     width: 20vw;
+    margin-left: 5vw
 }
 #sheridan_park_header_container{
-    
+    font-size: 30px;
 }
 #sheridan_park_map_container{
     
@@ -222,6 +224,17 @@ li{
     color: #f9f7f6;
     cursor: pointer;
 }
+
+#jp_nav{
+    font-size: 30px;
+}
+#cp_nav{
+    font-size: 30px;
+}
+#sp_nav{
+    font-size: 30px;
+}
+
 
 /*---------------------------------------TENNIS LEVELS AND PRICING AND DROP DOWNS -------------------------------*/
 
@@ -306,7 +319,8 @@ li{
     display: table;
     margin-top: 5vw;
     margin-bottom: 2px;
-    width: 50vw
+    width: 80vw;
+    margin-left: 10vw;
 }
 
 #jp_5-7_description_container{
@@ -332,13 +346,14 @@ li{
     display: table;
     margin-top: 5vw;
     margin-bottom: 2px;
-    width: 50vw;
+    width: 80vw;
+    margin-left: 10vw;
 }
 
 #cp_5-7_description_container{
     float:left;
 }
-#cp_header{
+#cp_5-7_level_header{
 
 }
 
@@ -357,7 +372,8 @@ li{
 
 #sp_5-7_program_container{
     display: table;
-    width: 50vw;
+    width: 80vw;
+    margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 2px;
 }
@@ -365,7 +381,7 @@ li{
 #sp_5-7_description_container{
     float:left;
 }
-#sp_header{
+#sp_5-7_level_header{
 
 }
 
@@ -378,7 +394,8 @@ li{
 
 #eight_to_ten_yo_program_container{
     display: table;
-    width: 50vw;
+    width: 80vw;
+    margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 2px;
 }
@@ -398,9 +415,10 @@ li{
 
 #eleven_to_thirteen_yo_program_container{
     display: table;
-    width: 50vw;
+    width: 80vw;
+    margin-left: 10vw;
     margin-top: 5vw;
-    margin-bottom: 2px;
+    margin-bottom: 5vw;
 }
 
 #eleven_to_thirteen_level_description_container{
@@ -421,7 +439,8 @@ li{
 
 #high_school_program_container{
     display: table;
-    width: 50vw;
+    width: 80vw;
+    margin-left: 10vw;
     margin-top: 5vw;
     margin-bottom: 50px;
 }

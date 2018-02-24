@@ -67,6 +67,12 @@ body{
     margin: 0px;
     padding: 0px;
 }
+pre{
+    font-family: 'Mukta Mahee','fantasy';
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
 
 /*----------------------------STATIC MAIN MENU-----------------------------*/
 
