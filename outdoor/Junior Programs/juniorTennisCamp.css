@@ -304,18 +304,13 @@ div.main_menu_box{
     width: 40%;
     display: inline-table;
 }
-#high_school_am_button{
+#high_school_button{
     font-size: 20px;
     width: 60%;
     margin: 10px;
     padding: 10px;
 }
-#high_school_pm_button{
-    font-size: 20px;
-    width: 60%;
-    margin: 10px;
-    padding: 10px;
-}
+
 
 /*-----------------------------------FOOTER------------------------------------*/
 
