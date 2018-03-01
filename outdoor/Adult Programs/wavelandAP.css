@@ -661,6 +661,20 @@ div.main_menu_box{
     margin-top: 5px;
 }
 
+
+#cardio_1_container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+    display: table;
+}
+#cardio_2_container{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+    display: table;
+}
+
 /*-------------------------------------DRILL AND PLAY ADVANCED BEGINNER------------------------------*/
 
 #drill_play_advanced_beginner_container{

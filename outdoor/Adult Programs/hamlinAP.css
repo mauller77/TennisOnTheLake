@@ -204,27 +204,24 @@ div.main_menu_box{
 #tennis_class_header_description_container{
     width: 100%;
     display: table; 
+    text-align: center;
 }
 
 #group_classes_header_description_container{
-    float: left;
-    width: 50%;
+    text-align: center;
 }
 #group_classes_header{
-    margin-left: 7vw;
-    margin-right: 3vw;
-    padding-left: 3vw;
-    padding-right: 2vw;
     background-color: #abd2c8;
+    text-align: center;
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 #group_classes_description{
-    margin-left: 7vw;
-    margin-right: 3vw;
-    padding-left: 3vw;
-    padding-right: 2vw;
     background-color: #abd2c8;
-    padding-top: 1vw;
-    overflow: hidden;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-right: 5vw;
+    margin-left: 5vw
 }
 
 #drill_play_classes_header_description_container{
@@ -256,10 +253,8 @@ div.main_menu_box{
 }
 
 #adult_group_classes_nav{
-    float: left;
     background-color: #f9f7f6;
     text-align: center;
-    width: 50%;
 }
 #adult_group_classes_nav_ul{
     text-decoration: none;
@@ -273,29 +268,6 @@ div.main_menu_box{
     padding: 2px;
 }
 .adult_group_classes_nav_li:hover{
-    background-color: #23353B;
-    color: #f9f7f6;
-    cursor: pointer;
-}
-
-#drill_play_classes_nav{
-    float: left;
-    background-color: #f9f7f6;
-    text-align: center;
-    width: 50%;
-}
-#drill_play_classes_nav_ul{
-    text-decoration: none;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-.drill_play_classes_nav_li{
-    display: inline-block;
-    margin: 0px;
-    padding: 2px;   
-}
-.drill_play_classes_nav_li:hover{
     background-color: #23353B;
     color: #f9f7f6;
     cursor: pointer;
