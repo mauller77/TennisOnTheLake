@@ -181,6 +181,28 @@ div.main_menu_box{
     
 }
 
+#session_schedule_container{
+    margin-top: 50px;
+    width: 100%;
+}
+#session_schedule_header{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#session_schedule{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    padding: 0px;
+    margin: 0px;
+}
+
 /*---------------------------------------HALF DAY CAMPS-----------------------*/
 
 #half_day_camp_container{
