@@ -121,6 +121,61 @@ div.main_menu_box{
     background-color: rgba(255,255,255,.2);
 }
 
+/*--------------------------------JUNIOR TENNIS CAMP DESCRIPION--------------------------------------*/
+#tennis_camp_description_container{
+    text-align: center;
+    width: 100vw;
+    height: inherit;
+}
+
+#tennis_camp_description{
+    width: 50%;
+    float: left;
+}
+
+#tennis_camp_description_header{
+    font-size: 50px;
+}
+#tennis_camp_description_ages{
+    font-size: 25px;
+}
+#tennis_camp_description_location{
+    font-size: 25px;
+}
+#tennis_camp_description_details{
+    font-size: 25px;
+}
+
+#tennis_camp_map_container{
+    width: 50%;
+    float: left;
+}
+#tennis_camp_map{
+    
+}
+
+#session_schedule_container{
+    margin-top: 50px;
+    width: 100%;
+}
+#session_schedule_header{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+#session_schedule{
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    padding: 0px;
+    margin: 0px;
+}
+
 /*------------------------------JUNIOR PROGRAMS HEADER----------------------*/
 
 #junior_programs_header_container{

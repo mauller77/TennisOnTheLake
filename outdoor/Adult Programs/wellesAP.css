@@ -204,6 +204,7 @@ div.main_menu_box{
 #tennis_class_header_description_container{
     width: 100%;
     display: table; 
+    margin-bottom: 20px;
 }
 
 #group_classes_header_description_container{

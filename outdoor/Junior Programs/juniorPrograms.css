@@ -298,11 +298,12 @@ li.image_slide{
     cursor: pointer;
 }
 #main_vertical_program_container{
-    width: 100%;
+    width: 50%;
     text-align: center;
     background-color: #f9f7f6;
     padding-bottom: 10px;
     padding-top: 10px;
+    float: left;
 }
 
 .program_header{
@@ -311,21 +312,21 @@ li.image_slide{
 
 #adult_programs_container{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 45%;
 }
 #kid_programs_container{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 45%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #private_programs_container{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 5%;
 }
 #matchplay_container{
     width: 50%;
-    margin-left: 25%;
+    margin-left: 5%;
     margin-top: 10px;
 }
 
