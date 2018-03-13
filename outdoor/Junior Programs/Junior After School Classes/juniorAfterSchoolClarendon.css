@@ -157,22 +157,8 @@ li{
     display: inline-block;
 }
 
-#jonquil_park_container{
-    width: 20vw;
-    margin-right: 5vw
-}
-#jonquil_park_header_container{
-    font-size: 30px;
-}
-#jonquil_park_map_container{
-    
-}
-#jonquil_map{
-    width: 100%;
-}
-
 #clarendon_park_container{
-    width: 20vw;
+    width: 60vw;
 }
 #clarendon_park_header_container{
     font-size: 30px;
@@ -181,20 +167,6 @@ li{
     
 }
 #clarendon_map{
-    width: 100%;
-}
-
-#sheridan_park_container{
-    width: 20vw;
-    margin-left: 5vw
-}
-#sheridan_park_header_container{
-    font-size: 30px;
-}
-#sheridan_park_map_container{
-    
-}
-#sheridan_map{
     width: 100%;
 }
 

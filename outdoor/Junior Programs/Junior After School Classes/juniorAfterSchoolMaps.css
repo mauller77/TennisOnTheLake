@@ -170,6 +170,14 @@ li{
 #jonquil_map{
     width: 100%;
 }
+#jonquil_button{
+    width: 100%;
+    font-size: 30px;
+}
+#jonquil_button:hover{
+    background-color: rgba(171,210,200,.8);
+    cursor: pointer;
+}
 
 #clarendon_park_container{
     width: 20vw;
@@ -182,6 +190,14 @@ li{
 }
 #clarendon_map{
     width: 100%;
+}
+#clarendon_button{
+    width: 100%;
+    font-size: 30px;
+}
+#clarendon_button:hover{
+    background-color: rgba(171,210,200,.8);
+    cursor: pointer;
 }
 
 #sheridan_park_container{
@@ -196,6 +212,14 @@ li{
 }
 #sheridan_map{
     width: 100%;
+}
+#sheridan_button{
+    width: 100%;
+    font-size: 30px;
+}
+#sheridan_button:hover{
+    background-color: rgba(171,210,200,.8);
+    cursor: pointer;
 }
 
 /*------------------------------------JUNIOR PROGRAMS NAVIGATION-----------------------------*/
