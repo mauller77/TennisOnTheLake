@@ -337,12 +337,14 @@ div.main_menu_box{
 .tennis_levels_holder{
     width: auto;
     color: #23353B;
+    background-color: #abd2c8;
 }
 .tennis_level_container{
     width: 75%;
     margin-top: 20px;
     padding: 20px;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid black;
 }
 
 .level_description_container{
@@ -715,7 +717,6 @@ div.main_menu_box{
 #drill_play_advanced_intermediate_container{
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 5vw;
     display: table;
 }
 

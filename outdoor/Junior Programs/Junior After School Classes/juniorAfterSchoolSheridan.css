@@ -62,7 +62,7 @@
 }
 
 body{
-    background-color: #f9f7f6;
+    background-color: #abd2c8;
     font-family: 'Mukta Mahee','fantasy';
     margin: 0px;
     padding: 0px;
@@ -149,6 +149,13 @@ div.main_menu_box{
     width: 100%;
     text-align: center;
 }
+.after_school_description{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f9f7f6;
+}
 
 #map_list{
     text-decoration: none;
@@ -220,7 +227,8 @@ li{
     margin-top: 20px;
     padding: 20px;
     width: auto;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid black;
 }
 .level_description_container{
     width: 70%;
@@ -247,9 +255,20 @@ li{
     padding-right: 5vw;
 }
 .tennis_level_sessions{
-    
+    text-align:center;
+    font-size: 20px;
 }
 
+.tennis_sessions_title{
+    text-align: center;
+    font-size: 30px;
+}
+.tennis_session_container{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: #f9f7f6;
+    margin-top: 20px;
+}
 .select_day_text{
     font-size: 30px;
     text-align: center;

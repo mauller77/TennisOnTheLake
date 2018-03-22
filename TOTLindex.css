@@ -40,6 +40,7 @@ div.main_menu_box{
     z-index: 4;
     background-color: #f9f7f6;
     top: 0px;
+    border-bottom: 1px solid black;
 }
 #main_menu_logo{
     width: 300px;
@@ -84,8 +85,28 @@ div.main_menu_box{
     text-align: center;
 }
 
-#picture_row{
+#banner_container{
+    width: 100%;
     margin-top: 100px;
+    overflow: hidden;
+    padding-bottom: 20px
+}
+ul.banner{
+    width: 300vw;
+    display: block;
+}
+li.banner{
+    width: 50vw;
+    list-style-type: none;
+    text-align: center;
+    float: left;
+}
+.banner_item{
+    width: 100vw;
+    font-size: 40px
+}
+
+#picture_row{
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #abd2c8;

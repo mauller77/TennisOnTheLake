@@ -2,20 +2,22 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Mukta+Mahee');
 
 @media screen and (max-width: 600px){
-    
+    .program_header{
+        font-size: 10px;
+    }
     #classes_header{
         font-size: 30px;
     }
 }
 
 @media screen and (min-width: 600px) and (max-width:800px){
-    
+    .program_header{
+        font-size: 10px;
+    }
     .horizontal_program_container{
         font-size: 17px;
     }
-    .program_header{
-        font-size: 25px;
-    }
+    
 }
 
 @media screen and (min-width: 500px){
@@ -73,10 +75,7 @@
     .horizontal_program_container{
         font-size: 22px;
     }
-    .program_header{
-        font-size: 35px;
-    }
-    
+  
     #slideshow_content_container{
         margin-left: -300px;
         width: 600px;
@@ -106,6 +105,18 @@
     }
     #contact_info_content{
         font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1400px){
+    .program_header{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .program_header{
+        font-size: 30px;
     }
 }
 
@@ -311,21 +322,21 @@ li.image_slide{
 }
 
 #adult_programs_container{
-    width: 50%;
-    margin-left: 45%;
+    width: 55%;
+    margin-left: 40%;
 }
 #kid_programs_container{
-    width: 50%;
-    margin-left: 45%;
+    width: 55%;
+    margin-left: 40%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #private_programs_container{
-    width: 50%;
+    width: 55%;
     margin-left: 5%;
 }
 #matchplay_container{
-    width: 50%;
+    width: 55%;
     margin-left: 5%;
     margin-top: 10px;
 }

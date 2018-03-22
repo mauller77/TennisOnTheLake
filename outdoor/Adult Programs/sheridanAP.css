@@ -157,7 +157,7 @@ div.main_menu_box{
 #main_container{
     width: 100%;
     height: 100%;
-    background-color: #f9f7f6;
+    background-color: #abd2c8;
 }
 
 /*------------------------------ADULT PROGRAMS HEADER----------------------*/
@@ -290,32 +290,18 @@ div.main_menu_box{
     border: 2px solid #23353B;
     text-align: center;
 }
-
-/*----------------------------DRILL AND PLAY CLASSES HEADER PRE TENNIS LEVELS-----------------------*/
-
-#drill_play_header_pre_tennis_levels_container{
-    width: 100%;
-    margin-top: 20px;
-}
-#drill_play_header_pre_tennis_levels{
-    background-color: #23353B;
-    font-size: 60px;
-    border: 1px solid #23353B;
-    text-align: center;
-    color: #f9f7f6;
-}
-
 /*---------------------------------------TENNIS LEVELS AND PRICING AND DROP DOWNS -------------------------------*/
 
 .tennis_levels_holder{
-    width: auto;
     color: #23353B;
+    background-color: #abd2c8;
 }
 .tennis_level_container{
     width: 75%;
     margin-top: 20px;
     padding: 20px;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid black;
 }
 
 .level_description_container{
@@ -600,7 +586,6 @@ div.main_menu_box{
 #group_classes_advanced_intermediate_container{
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-bottom: 3vw;
     display: table;
 }
 
@@ -634,54 +619,6 @@ div.main_menu_box{
     margin-top: 5px;
 }
 #group_classes_advanced_intermediate_sunday{
-    margin-top: 5px;
-}
-
-/*-------------------------------------DRILL AND PLAY ADVANCED BEGINNER------------------------------*/
-
-#drill_play_advanced_beginner_container{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 2px;
-    display: table;
-}
-
-#drill_play_advanced_beginner_saturday{
-    margin-top: 10px;
-}
-#drill_play_advanced_beginner_sunday{
-    margin-top: 5px;
-}
-
-/*----------------------------DRILL AND PLAY INTERMEDIATE 1-----------------------------*/
-
-#drill_play_intermediate_1_container{
-    display:table;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 2px;
-}
-
-#drill_play_intermediate_1_saturday{
-    margin-top: 10px;
-}
-#drill_play_intermediate_1_sunday{
-    margin-top: 5px;
-}
-
-/*---------------------------DRILL AND PLAY ADVANCED INTERMEDIATE--------------------*/
-
-#drill_play_advanced_intermediate_container{
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-bottom: 5vw;
-    display: table;
-}
-
-#drill_play_advanced_intermediate_saturday{
-    margin-top: 10px;
-}
-#drill_play_advanced_intermediate_sunday{
     margin-top: 5px;
 }
 

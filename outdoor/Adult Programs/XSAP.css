@@ -105,7 +105,7 @@
 }
 
 body{
-    background-color: #f9f7f6;
+    background-color: #abd2c8;
     font-family: 'Mukta Mahee','fantasy';
 }
 
@@ -169,6 +169,7 @@ div.main_menu_box{
     margin-bottom: 20px;
     border-bottom: 1px solid #23353B;
     color: #23353B;
+    background-color: #f9f7f6;
 }
 #adult_programs_header{
     text-align: center;
@@ -197,6 +198,7 @@ div.main_menu_box{
     background-color: #f9f7f6;
     color: #23353B;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 /*---------------------------GROUP CLASSES AND DRILL PLAY HEADERS AND DESCRIPTIONS------------------------------------*/
@@ -339,7 +341,8 @@ div.main_menu_box{
     width: 75%;
     margin-top: 20px;
     padding: 20px;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid black;
 }
 
 .level_description_container{
@@ -351,6 +354,7 @@ div.main_menu_box{
     font-size: 30px;
     text-align: left;
     width: 70%;
+    
 }
 .level_cost{
     font-size: 20px;
@@ -371,11 +375,13 @@ div.main_menu_box{
 .tennis_level_sessions{
     text-align:center;
     font-size: 20px;
+    background-color: #f9f7f6;
 }
 
 .tennis_sessions_title{
     text-align: center;
     font-size: 30px;
+    background-color: #f9f7f6;
 }
 
 /*------------------------------SELECT THE DAY CLASSES----------------------------------------*/

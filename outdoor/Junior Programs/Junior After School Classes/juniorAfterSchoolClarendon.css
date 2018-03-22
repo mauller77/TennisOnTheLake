@@ -62,7 +62,7 @@
 }
 
 body{
-    background-color: #f9f7f6;
+    background-color: #abd2c8;
     font-family: 'Mukta Mahee','fantasy';
     margin: 0px;
     padding: 0px;
@@ -149,25 +149,12 @@ div.main_menu_box{
     width: 100%;
     text-align: center;
 }
-
-#map_list{
-    text-decoration: none;
-}
-li{
-    display: inline-block;
-}
-
-#clarendon_park_container{
-    width: 60vw;
-}
-#clarendon_park_header_container{
-    font-size: 30px;
-}
-#clarendon_park_map_container{
-    
-}
-#clarendon_map{
-    width: 100%;
+.after_school_description{
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f9f7f6;
 }
 
 /*------------------------------------JUNIOR PROGRAMS NAVIGATION-----------------------------*/
@@ -219,7 +206,9 @@ li{
     margin-top: 20px;
     padding: 20px;
     width: auto;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid black;
+
 }
 .level_description_container{
     width: 70%;
@@ -246,9 +235,20 @@ li{
     padding-right: 5vw;
 }
 .tennis_level_sessions{
-    
+    text-align:center;
+    font-size: 20px;
 }
 
+.tennis_sessions_title{
+    text-align: center;
+    font-size: 30px;
+}
+.tennis_session_container{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    background-color: #f9f7f6;
+    margin-top: 20px;
+}
 .select_day_text{
     font-size: 30px;
     text-align: center;
@@ -279,32 +279,6 @@ li{
     background-color: #abd2c8;
 }
 
-/*-----------------------Jonquil Park----------------*/
-#jonquil_park_header{
-    width: 100%;
-    text-align: center;
-    font-size: 60px;
-    border: 1px solid black;
-}
-
-#jp_5-7_program_container{
-    display: table;
-    margin-top: 5vw;
-    margin-bottom: 2px;
-    width: 80vw;
-    margin-left: 10vw;
-}
-
-#jp_5-7_description_container{
-    float:left;
-}
-#jp_header{
-
-}
-
-#jp_5-7_select_day_container{
-    float:left;
-}
 
 /*-----------------------Clarendon Park----------------*/
 #clarendon_park_header{
@@ -332,35 +306,6 @@ li{
 #cp_5-7_select_day_container{
     float:left;
 }
-
-
-/*----------------------Sheridan Park----------------*/
-#sheridan_park_header{
-    width: 100%;
-    text-align: center;
-    font-size: 60px;
-    border: 1px solid black;
-}
-
-#sp_5-7_program_container{
-    display: table;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 5vw;
-    margin-bottom: 2px;
-}
-
-#sp_5-7_description_container{
-    float:left;
-}
-#sp_5-7_level_header{
-
-}
-
-#sp_5-7_select_day_container{
-    float:left;
-}
-
 
 /*------------------------------8-10 YO PROGRAM CONTAINER---------------------------*/
 

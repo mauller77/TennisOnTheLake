@@ -156,7 +156,7 @@ div.main_menu_box{
 }
 
 #tennis_camp_description{
-    width: 50%;
+    width: 33%;
     float: left;
 }
 
@@ -174,7 +174,7 @@ div.main_menu_box{
 }
 
 #tennis_camp_map_container{
-    width: 50%;
+    width: 33%;
     float: left;
 }
 #tennis_camp_map{
@@ -183,15 +183,21 @@ div.main_menu_box{
 
 #session_schedule_container{
     margin-top: 50px;
-    width: 100%;
+    width: 33%;
+    float: left
 }
 #session_schedule_header{
     text-align: center;
     width: 100%;
     font-size: 20px;
 }
+#session_schedule_divider{
+    width: 100%;
+}
 #session_schedule{
     text-align: center;
+    float: left;
+    width: 50%;
 }
 ul{
     list-style: none;

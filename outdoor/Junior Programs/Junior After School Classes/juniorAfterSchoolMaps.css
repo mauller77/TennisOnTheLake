@@ -173,6 +173,7 @@ li{
 #jonquil_button{
     width: 100%;
     font-size: 30px;
+    border: 1px solid black;
 }
 #jonquil_button:hover{
     background-color: rgba(171,210,200,.8);
@@ -194,6 +195,7 @@ li{
 #clarendon_button{
     width: 100%;
     font-size: 30px;
+    border: 1px solid black;
 }
 #clarendon_button:hover{
     background-color: rgba(171,210,200,.8);
@@ -216,6 +218,7 @@ li{
 #sheridan_button{
     width: 100%;
     font-size: 30px;
+    border: 1px solid black;
 }
 #sheridan_button:hover{
     background-color: rgba(171,210,200,.8);

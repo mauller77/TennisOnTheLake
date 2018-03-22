@@ -62,7 +62,8 @@
 }
 
 body{
-    background-color: #f9f7f6;
+    background-color: #abd2c8;
+    
     font-family: 'Mukta Mahee','fantasy';
 }
 
@@ -118,19 +119,21 @@ div.main_menu_box{
 #main_container{
     width: 100%;
     height: 100%;
-    background-color: rgba(255,255,255,.2);
+    text-align: center;
 }
 
 /*--------------------------------JUNIOR TENNIS CAMP DESCRIPION--------------------------------------*/
 #tennis_camp_description_container{
     text-align: center;
-    width: 100vw;
-    height: inherit;
+    width: 100%;
+    background-color: #f9f7f6;
 }
 
 #tennis_camp_description{
-    width: 50%;
-    float: left;
+    width: 30%;
+    background-color: #f9f7f6;
+    display: inline-block;
+    vertical-align:top;
 }
 
 #tennis_camp_description_header{
@@ -147,24 +150,39 @@ div.main_menu_box{
 }
 
 #tennis_camp_map_container{
-    width: 50%;
-    float: left;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
 }
 #tennis_camp_map{
     
 }
 
 #session_schedule_container{
-    margin-top: 50px;
-    width: 100%;
+    margin-top: 0px;
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
 }
 #session_schedule_header{
     text-align: center;
     width: 100%;
     font-size: 20px;
 }
-#session_schedule{
+#sesson_schedule_col_container{
+    width: 100%;
+}
+#session_schedule_col_1{
     text-align: center;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+#sesson_schedule_col_2{
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    float: left;
 }
 ul{
     list-style: none;
@@ -226,13 +244,15 @@ li{
 
 .tennis_levels_holder{
     color: #23353B;
+    background-color: aquamarine;
 }
 .tennis_level_container{
     width: 70vw;
     margin-top: 20px;
     padding: 20px;
     width: auto;
-    background-color: rgba(171,210,200,.4);
+    background-color: #f9f7f6;
+    border: 1px solid #23353B;
 }
 .level_description_container{
     width: 70%;
